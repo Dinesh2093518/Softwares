@@ -24,7 +24,7 @@ choco install googlechrome -y;
 
 #Installing docker desktop
 choco install docker-desktop --pre -y;
-net localgroup docker-users "TCAdmin123" /ADD;
+#net localgroup docker-users "TCAdmin123" /ADD;
 
 #Installing DotNet
 #Invoke-WebRequest -Uri https://dotnet.microsoft.com/download/dotnet/scripts/v1/dotnet-install.ps1 -OutFile .\dotnet-install.ps1;
